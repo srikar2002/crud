@@ -43,7 +43,6 @@ const newUser = {
   age: age ?? null,
 };
 
-
   users.push(newUser);
   writeDB(users);
   res.status(201).json(newUser);
